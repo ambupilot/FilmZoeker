@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+input[type="radio"] {
+    -ms-transform: scale(1.0); /* IE 9 */
+    -webkit-transform: scale(1.0); /* Chrome, Safari, Opera */
+    transform: scale(1.0);
+}
+
+.container {
+    background-color: #222;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    padding-top: 10px;;
+    padding-bottom: 10px;;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.radionav {
+    display: flex;
+    flex-direction: row;
+}
+.radionav label {
+    padding-right: 35px;
+}
+.label {
+    font-variant-caps: all-small-caps;
+    padding-left: 10px;
+}
+
+.ulmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ulmovies > li {
+    width: 300px;
+    list-style-type: none;
+}
+
+.footer {
+    text-align: center;
+    color: darkgrey;
+    font-variant-caps: all-small-caps;
+    padding: 10px 0 10px 0;
+}
